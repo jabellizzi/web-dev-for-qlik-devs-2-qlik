@@ -1,0 +1,12 @@
+.hero-spot{
+  height: 400px;
+  background-image: url(./hero-spot.jpg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px){
+  .hero-spot {
+    background-image: url(./hero-spot-mobile.jpg);
+    height: 200px;
+  }
+}
